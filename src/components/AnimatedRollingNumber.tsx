@@ -183,6 +183,7 @@ export const AnimatedRollingNumber: React.FC<AnimatedRollingNumberProps> = ({
             height={height}
             containerStyle={digitContainerStyle}
             textStyle={textStyle}
+            textProps={textProps}
             numberTextProps={numberTextProps}
             commaTextProps={commaTextProps}
             dotTextProps={dotTextProps}
