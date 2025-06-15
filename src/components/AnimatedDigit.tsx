@@ -214,21 +214,19 @@ export const AnimatedDigit: React.FC<AnimatedDigitProps> = ({
         </Animated.View>
       </Animated.View>
     ),
-    __DEV__
-      ? [
-          value,
-          height,
-          containerStyle,
-          textProps,
-          numberTextProps,
-          compactNotationTextProps,
-          othersTextProps,
-          textStyle,
-          numberStyle,
-          compactNotationStyle,
-          othersTextStyle,
-        ]
-      : [height, value]
+    [
+      value,
+      height,
+      containerStyle,
+      textProps,
+      numberTextProps,
+      compactNotationTextProps,
+      othersTextProps,
+      textStyle,
+      numberStyle,
+      compactNotationStyle,
+      othersTextStyle,
+    ]
   );
 };
 
